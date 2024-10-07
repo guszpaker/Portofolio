@@ -5,7 +5,7 @@ body{
 }
 
 .banner{
-  background: url("banner.png") no-repeat center center;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_rm5S_6TyqEnqnFmZ-qC6tcqV39BTOSUCb_IPe_O7Lu0108CfjrrcNnY&s=10") no-repeat center center;
   background-size: cover;
   padding-top: 20%;
   padding-bottom: 20%;
@@ -25,4 +25,12 @@ body{
 .lingkaran i{
   position: relative;
   top: 30px;
+}
+
+.kontak{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSylcTm1CHpur1tK4ZINCEgcZ22xbAzKEQ7FA&usqp=CAU") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
 }

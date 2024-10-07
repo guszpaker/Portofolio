@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- navigasi -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#">BN</a>
@@ -26,24 +27,23 @@
           <a class="nav-link" href="#portofolio">Portofolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#tentang">Tentang</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+<!-- banner -->
 <div class="container-fluid banner">
   <div class="container text-center">
     <h4 class="display-6">Welcome</h4>
     <h3 class="display-1">Hai, Hallo</h3>
     <a href="#layanan">
-      <button type="button" class="btn btn-danger btn-lg">Cek Layanan</button>
+      <button type="submit" class="btn btn-danger btn-lg">Cek Layanan</button>
     </a>
   </div>
 </div>
+<!-- layanan -->
 <div class="container-fluid layanan pt-5 pb-5">
   <div class="container text-center">
     <h2 class="display-3" id="layanan">Layanan</h2>
@@ -68,14 +68,16 @@
     </div>
   </div>
 </div>
+<!-- portofolio -->
 <div class="container-fluid pt-5 pb-5 bg-light">
   <div class="container text-center">
     <h2 class="display-3" id="portofolio">Portofolio</h2>
     <p>Hallo nama saya bagus nugraha,Saya adalah siswa di sekolah SMK TARUNA HARAPAN 1 CIPATAT.Saya memasuki jurusan RPL (Rekayasa Perangkat Lunak).Saya pernah berprestasi dalam bidang bermain game online</p>
     <div class="row pt-4 gx-4 gy-4">
-      <div class="col-md-4">
+      <div class="col-md">
         <div class="card">
-          <img src="j1.png" class="card-img-top" alt="sertivikat">
+          <img src="j1.png" class="card-img-top" alt="sertivikat"
+          width="200">
           <div class="card-body">
             <h5 class="card-title">Turnament FREE FIRE Juara 1 </h5>
           </div>
@@ -99,6 +101,28 @@
       </div> -->
     </div>
   </div>
+</div>
+<!-- Contact -->
+<div class="container-fluid pt-5 pb-5 kontak">
+  <div class="container">
+    <h2 class="display-3 text-center" id="contact">Kontak saya</h2>
+    <div class="row pb-3">
+      <div class="col-md-6">
+        <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama">
+        <input class="form-control form-control-lg mb-3" type="email" placeholder="Email">
+        <input class="form-control form-control-lg mb-3" type="number" placeholder="No Phone">
+      </div>
+      <div class="col-md-6">
+        <textarea class="form form-control-lg" rows="5"></textarea>
+      </div>
+    </div>
+    <div class="col-md-3 mx-auto text-center">
+      <button type="submit" class="btn btn-lg btn-danger">Kirim</button>
+    </div>
+  </div>
+</div>
+<div class="container text-center pt-5 pb-5">
+  Bagus Nugraha &copy; 2024
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
